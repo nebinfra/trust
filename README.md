@@ -199,10 +199,7 @@ Every NebInfra production signature is uploaded to the public Sigstore Rekor tra
 
 ## Architecture and threat model
 
-The full design (KMS topology, CI/CD signing flow, threat model, and incident-response runbooks) is maintained in NebInfra's infrastructure framework repository:
-
-- [cicd-signing-architecture.md](https://github.com/nebinfra/nebcore-infra-framework/blob/main/architecture/cicd-signing-architecture.md)
-- [PLATFORM_SECURITY.md § Artifact Signing](https://github.com/nebinfra/nebcore-infra-framework/blob/main/architecture/PLATFORM_SECURITY.md#artifact-signing)
+The full design (KMS topology, CI/CD signing flow, threat model, and incident-response runbooks) is maintained in NebInfra's internal architecture documentation. The verification recipes above are self-contained; no internal document is required to verify artifacts.
 
 ---
 
