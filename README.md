@@ -52,7 +52,7 @@ If any of those three checks fail, the artifact is not authentic and must not be
 | Application | Description | Source repository | Active public key |
 | --- | --- | --- | --- |
 | `nebguard` | NebCore guardrails engine | [nebinfra/nebguard](https://github.com/nebinfra/nebguard) | [`cosign-keys/nebguard-prod.pub`](cosign-keys/nebguard-prod.pub) |
-| `nebcore-cli` | NebCore platform CLI | [nebinfra/nebcore-cli](https://github.com/nebinfra/nebcore-cli) | [`cosign-keys/nebcore-cli-prod.pub`](cosign-keys/nebcore-cli-prod.pub) |
+| `nebcli` | NebCore platform CLI | [nebinfra/nebcli](https://github.com/nebinfra/nebcli) | [`cosign-keys/nebcli-prod.pub`](cosign-keys/nebcli-prod.pub) |
 | `nebcore-ai` | NebCore AI runtime | [nebinfra/nebcore-ai](https://github.com/nebinfra/nebcore-ai) | [`cosign-keys/nebcore-ai-prod.pub`](cosign-keys/nebcore-ai-prod.pub) |
 | `nebcore-operator` | NebCore Kubernetes operator | [nebinfra/nebcore-operator](https://github.com/nebinfra/nebcore-operator) | [`cosign-keys/nebcore-operator-prod.pub`](cosign-keys/nebcore-operator-prod.pub) |
 | `platform-backend` | NebInfra platform API backend | [nebinfra/platform-backend](https://github.com/nebinfra/platform-backend) | [`cosign-keys/platform-backend-prod.pub`](cosign-keys/platform-backend-prod.pub) |
