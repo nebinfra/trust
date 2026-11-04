@@ -68,7 +68,7 @@ You will need [`cosign`](https://docs.sigstore.dev/cosign/installation/) (v2 rec
 ```bash
 APP=nebguard
 DIGEST=sha256:<digest>          # from your image registry, e.g. `crane digest <image>`
-IMAGE=380277571885.dkr.ecr.us-east-2.amazonaws.com/${APP}@${DIGEST}
+IMAGE=<registry>/${APP}@${DIGEST}   # your image registry, e.g. the one you pull from
 
 cosign verify \
   --key https://raw.githubusercontent.com/nebinfra/trust/main/cosign-keys/${APP}-prod.pub \
